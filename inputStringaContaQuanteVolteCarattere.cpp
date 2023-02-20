@@ -13,9 +13,9 @@ int main()
     char z;
     while (i < inserimento.length())
     {
-        for(y=0;i<inserimento.length();y++)                     //posizione y che confronterà i valori con altra posizione z
+        for(y=inserimento[0];i<inserimento[inserimento.length()];y++)                     //posizione y che confronterà i valori con altra posizione z
                 
-                for(z = inserimento[+1]; z < inserimento.length(); z++){
+                for(z = inserimento[+1]; z < inserimento[inserimento.length()]; z++){
                        if (y = z){
                         conta += 1;
                        }
