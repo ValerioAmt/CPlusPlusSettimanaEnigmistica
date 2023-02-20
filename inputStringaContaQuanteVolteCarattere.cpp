@@ -9,11 +9,11 @@ int main()
     cin >> inserimento;
     int conta = 0;
     int i = 0;
-    int y;
-    int z;
+    char y;
+    char z;
     while (i < inserimento.length())
     {
-        for(y=inserimento[0];i<inserimento.length();y++)                     //posizione y che confronterà i valori con altra posizione z
+        for(y=0;i<inserimento.length();y++)                     //posizione y che confronterà i valori con altra posizione z
                 
                 for(z = inserimento[+1]; z < inserimento.length(); z++){
                        if (y = z){
@@ -21,7 +21,7 @@ int main()
                        }
                 } 
 
-
+             i++;
         
         
     }
